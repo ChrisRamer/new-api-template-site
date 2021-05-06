@@ -1,12 +1,12 @@
-# *XXXXX-ProjectName*
+# *ProjectTitle*
 
-#### *XXXXX-ProjectName, XXXXX-SubmissionDate*
+#### *ProjectTitle, ProjectDate*
 
 #### By **Chris Ramer**
 
 ## Description
 
-XXXXX-Description
+XXXXX
 
 ## Setup/Installation Requirements
 
