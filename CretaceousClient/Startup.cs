@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using CretaceousClient.Models;
@@ -23,10 +22,6 @@ namespace CretaceousClient
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddMvc();
-
-			services.AddEntityFrameworkMySql()
-	  			.AddDbContext<CretaceousClientContext>(options => options
-	 			 .UseMySql(Configuration["ConnectionStrings:DefaultConnection"]));
 		}
 
 		public void Configure(IApplicationBuilder app)
