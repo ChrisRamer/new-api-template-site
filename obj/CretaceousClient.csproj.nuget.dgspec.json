@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Files\\Work\\Learning\\Epicodus Lessons\\3.0 - C# and .NET\\3.6 - Building an API\\New API Template\\CretaceousClient.Solution\\CretaceousClient\\CretaceousClient.csproj": {}
+  },
+  "projects": {
+    "D:\\Files\\Work\\Learning\\Epicodus Lessons\\3.0 - C# and .NET\\3.6 - Building an API\\New API Template\\CretaceousClient.Solution\\CretaceousClient\\CretaceousClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Files\\Work\\Learning\\Epicodus Lessons\\3.0 - C# and .NET\\3.6 - Building an API\\New API Template\\CretaceousClient.Solution\\CretaceousClient\\CretaceousClient.csproj",
+        "projectName": "CretaceousClient",
+        "projectPath": "D:\\Files\\Work\\Learning\\Epicodus Lessons\\3.0 - C# and .NET\\3.6 - Building an API\\New API Template\\CretaceousClient.Solution\\CretaceousClient\\CretaceousClient.csproj",
+        "packagesPath": "C:\\Users\\Awesome\\.nuget\\packages\\",
+        "outputPath": "D:\\Files\\Work\\Learning\\Epicodus Lessons\\3.0 - C# and .NET\\3.6 - Building an API\\New API Template\\CretaceousClient.Solution\\CretaceousClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Awesome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.emzi0767.com/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.6.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

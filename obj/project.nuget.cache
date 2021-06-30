@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W/i8NRBhNMypsFxtRLlEiX/JNk1RFpXdxn2+JRAzmn2eezMm1Z1frhg/vWZgJbO0vOcxsM90ccY+Zns9juNUWA==",
+  "dgSpecHash": "xoxu1+seJT3kBNMocd8xDayqAe79CVxodhPNJdl1C2xww46ccXJNh+Q9oKKKD6fiZ2PH28FfGIc6ONkSqAkEAQ==",
   "success": true,
-  "projectFilePath": "D:\\Files\\Work\\Learning\\Epicodus Lessons\\3.0 - C# and .NET\\3.6 - Building an API\\New API Template\\CretaceousClient.Solution\\CretaceousClient\\netcoreapp_mvc.csproj",
+  "projectFilePath": "D:\\Files\\Work\\Learning\\Epicodus Lessons\\3.0 - C# and .NET\\3.6 - Building an API\\New API Template\\CretaceousClient.Solution\\CretaceousClient\\CretaceousClient.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

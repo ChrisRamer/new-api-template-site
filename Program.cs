@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace netcoreapp_mvc
+namespace CretaceousClient
 {
     public class Program
     {

@@ -12105,9 +12105,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Files\\Work\\Learning\\Epicodus Lessons\\3.0 - C# and .NET\\3.6 - Building an API\\New API Template\\CretaceousClient.Solution\\CretaceousClient\\netcoreapp_mvc.csproj",
-      "projectName": "netcoreapp_mvc",
-      "projectPath": "D:\\Files\\Work\\Learning\\Epicodus Lessons\\3.0 - C# and .NET\\3.6 - Building an API\\New API Template\\CretaceousClient.Solution\\CretaceousClient\\netcoreapp_mvc.csproj",
+      "projectUniqueName": "D:\\Files\\Work\\Learning\\Epicodus Lessons\\3.0 - C# and .NET\\3.6 - Building an API\\New API Template\\CretaceousClient.Solution\\CretaceousClient\\CretaceousClient.csproj",
+      "projectName": "CretaceousClient",
+      "projectPath": "D:\\Files\\Work\\Learning\\Epicodus Lessons\\3.0 - C# and .NET\\3.6 - Building an API\\New API Template\\CretaceousClient.Solution\\CretaceousClient\\CretaceousClient.csproj",
       "packagesPath": "C:\\Users\\Awesome\\.nuget\\packages\\",
       "outputPath": "D:\\Files\\Work\\Learning\\Epicodus Lessons\\3.0 - C# and .NET\\3.6 - Building an API\\New API Template\\CretaceousClient.Solution\\CretaceousClient\\obj\\",
       "projectStyle": "PackageReference",
