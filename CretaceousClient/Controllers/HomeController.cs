@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace XXX_ProjectName.Controllers
+namespace CretaceousClient.Controllers
 {
 	public class HomeController : Controller
 	{

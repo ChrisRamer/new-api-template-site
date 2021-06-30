@@ -3,24 +3,24 @@ using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using System.IO;
 
-namespace XXX_ProjectName.Models
+namespace CretaceousClient.Models
 {
-	public class XXX_ProjectNameContextFactory : IDesignTimeDbContextFactory<XXX_ProjectNameContext>
+	public class CretaceousClientContextFactory : IDesignTimeDbContextFactory<CretaceousClientContext>
 	{
 
-		XXX_ProjectNameContext IDesignTimeDbContextFactory<XXX_ProjectNameContext>.CreateDbContext(string[] args)
+		CretaceousClientContext IDesignTimeDbContextFactory<CretaceousClientContext>.CreateDbContext(string[] args)
 		{
 			IConfigurationRoot configuration = new ConfigurationBuilder()
 			  .SetBasePath(Directory.GetCurrentDirectory())
 			  .AddJsonFile("appsettings.json")
 			  .Build();
 
-			var builder = new DbContextOptionsBuilder<XXX_ProjectNameContext>();
+			var builder = new DbContextOptionsBuilder<CretaceousClientContext>();
 			string connectionString = configuration.GetConnectionString("DefaultConnection");
 
 			builder.UseMySql(connectionString);
 
-			return new XXX_ProjectNameContext(builder.Options);
+			return new CretaceousClientContext(builder.Options);
 		}
 	}
 }
