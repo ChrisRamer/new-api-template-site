@@ -1,0 +1,17 @@
+@model CretaceousClient.Models.Animal
+
+@{
+	Layout = "_Layout";
+}
+
+<h1 id="title">Animal Details</h1>
+
+<hr />
+
+<p>
+	<u><h3>@Model.Name</h3></u>
+	<h4><b>Species:</b> @Model.Species</h4>
+	<h4><b>Gender:</b> @Model.Gender</h4>
+	<h4><b>Age:</b> @Model.Age</h4>
+	<h4><b>ID:</b> @Model.AnimalId</h4>
+</p>
